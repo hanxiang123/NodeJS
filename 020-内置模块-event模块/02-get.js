@@ -1,10 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
+@公众号: 大前端私房菜
  */
 const { EventEmitter } = require("events")
 var http = require("http")

@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 var sum = require("../sum")
 // var assert  =require("assert")
 var chai = require("chai")

@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 //连接数据库
 
 const mongoose = require("mongoose")

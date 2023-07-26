@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const UserModel = require("../model/UserModel")
 const UserService = {
     addUser:(username,password,age)=>{

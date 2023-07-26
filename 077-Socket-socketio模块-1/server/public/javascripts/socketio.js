@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 /*!
  * Socket.IO v4.4.1
  * (c) 2014-2022 Guillermo Rauch

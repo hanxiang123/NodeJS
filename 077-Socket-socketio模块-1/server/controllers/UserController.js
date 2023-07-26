@@ -1,10 +1,7 @@
 const UserService = require("../services/UserService")
 const JWT = require("../util/JWT")
 
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const UserController = {
     addUser:async (req,res)=>{
         console.log(req.body)

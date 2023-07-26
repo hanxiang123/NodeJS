@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const express = require("express")
 const app = express()
 app.use(express.static("./public"))

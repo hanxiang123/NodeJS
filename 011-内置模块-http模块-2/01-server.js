@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 var http = require("http")
 var moduleRenderHTML = require("./module/renderHTML")
 var moduleRenderStatus = require("./module/renderStatus")

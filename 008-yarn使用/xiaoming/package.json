@@ -2,7 +2,7 @@
   "name": "aaa",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "kerwin",
+  "author": "hx",
   "license": "MIT",
   "dependencies": {
     "md5": "^2.3.0"

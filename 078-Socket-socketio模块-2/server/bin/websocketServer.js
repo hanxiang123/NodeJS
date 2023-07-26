@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const JWT = require("../util/JWT")
 function start(server){
     const io = require('socket.io')(server);

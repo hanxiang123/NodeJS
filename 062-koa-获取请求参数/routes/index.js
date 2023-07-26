@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const Router = require("koa-router")
 const userRouter= require('./user.js')
 const listRouter=  require('./list.js')

@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const http = require("http")
 const route = require("./route")
 http.createServer((req, res) => {

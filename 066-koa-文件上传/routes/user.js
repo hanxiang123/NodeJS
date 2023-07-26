@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 //增
 const Router = require("koa-router")
 const JWT = require("../util/JWT")

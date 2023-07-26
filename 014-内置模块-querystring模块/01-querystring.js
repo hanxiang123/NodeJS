@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 var str = "name=kerwin&age=100&location=dalian"
 
 var querystring = require("querystring")

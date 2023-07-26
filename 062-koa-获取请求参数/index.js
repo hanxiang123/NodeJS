@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const Koa = require("koa")
 const app = new Koa()
 const static = require("koa-static")

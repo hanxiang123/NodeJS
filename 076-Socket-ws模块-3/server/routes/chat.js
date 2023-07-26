@@ -1,10 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
+@公众号: 大前端私房菜
  */
 var express = require('express');
 var router = express.Router();

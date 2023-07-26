@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 const Koa = require("koa")
 const Router = require("koa-router")
 const app = new Koa()

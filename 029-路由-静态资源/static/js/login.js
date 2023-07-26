@@ -1,7 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
+
 var ologin = document.querySelector("#login")
 var ologinpost = document.querySelector("#loginpost")
 var username = document.querySelector("#username")

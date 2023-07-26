@@ -1,10 +1,4 @@
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
- */
-/*
- * @作者: kerwin
- * @公众号: 大前端私房菜
+@公众号: 大前端私房菜
  */
 const Koa = require("koa")
 const app = new Koa()
