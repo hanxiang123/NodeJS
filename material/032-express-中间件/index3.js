@@ -14,6 +14,7 @@ app.use(function(req,res,next){
 app.use("/home",HomeRouter)
 app.use("/login",LoginRouter)
 
+// 错误中间件
 app.use((req,res)=>{
     res.status(404).send("丢了")
 })
