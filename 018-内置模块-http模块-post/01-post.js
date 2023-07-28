@@ -36,7 +36,6 @@ function httppost(cb){
         method:"POST",
         headers:{
             "Content-Type":"application/json"
-
             // "Content-Type":"x-www-form-urlencoded" 
         }
     }
@@ -48,7 +47,8 @@ function httppost(cb){
             cb(data)
         })
     })
-    // req.write("name=kerwin&age=100")
+    // "Content-Type":"x-www-form-urlencoded"  ===>   req.write("name=kerwin&age=100")
+    // "Content-Type":"application/json"  ==>   req.write(JSON.stringify([{},{"baseParam":{"ypClient":1}}]))
     req.write(JSON.stringify([{},{"baseParam":{"ypClient":1}}]))
     req.end()
 }

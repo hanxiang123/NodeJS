@@ -1,5 +1,4 @@
-@公众号: 大前端私房菜
- */
+
 const express = require("express")
 const app = express()
 const HomeRouter = require("./route3/HomeRouter")

@@ -2,11 +2,16 @@
 const express = require("express")
 const app = express()
 const IndexRouter = require("./router2/IndexRouter")
+
+// use 注册中间件
+
 //应用级别
 app.use(function(req,res,next){
     console.log("验证token")
     next()
 })
+
+
 //应用级别
 app.use("/api",IndexRouter)
 

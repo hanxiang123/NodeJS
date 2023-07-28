@@ -1,5 +1,4 @@
-@公众号: 大前端私房菜
- */
+
 var express = require('express');
 var router = express.Router();
 

@@ -46,7 +46,7 @@ function httpget(cb){
 
 function spider(data){
     // npm i cheerio 
-    let $ = cheerio.load(data)
+    let $ = cheerio.load(data) // cheerio html页面解析器 npm i cheerio
     
     let $moviewlist = $(".column.content")
     // console.log($moviewlist)

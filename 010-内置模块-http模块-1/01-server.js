@@ -2,8 +2,8 @@
 var http = require("http")
 
 //创建服务器
-
 http.createServer((req,res)=>{
+    // console.log(req)
     //req 接受浏览器传的参数 
     //res 返回渲染的内容
 
@@ -13,10 +13,11 @@ http.createServer((req,res)=>{
 
     // res.write("aaaaa")
 
-    res.writeHead(200,{"Content-Type":"text/html;charset=utf-8"})
+    res.writeHead(200,{"Content-Type":"text/html;charset=utf-8"})  // 给浏览器一个响应头
+    // 响应正文
     res.write(`
       <html>
-          <b>hello wolrd</b>
+          <b>hello wolrd !!!!</b>
           <div>大家好</div>
       </html>
     `)

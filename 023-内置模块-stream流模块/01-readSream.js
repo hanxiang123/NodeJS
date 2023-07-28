@@ -1,7 +1,7 @@
 
 const fs = require("fs")
 
-const rs = fs.createReadStream("./1.txt","utf-8")
+const rs = fs.createReadStream("./1.txt","utf-8") // 可读流
 
 rs.on("data",(chunk)=>{
     console.log("chunk-",chunk)

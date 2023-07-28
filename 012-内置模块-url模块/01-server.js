@@ -1,3 +1,9 @@
+/**
+ * nodemon   node-dev
+ * 自动重启服务器 npm i nodemon/node-dev -g
+ * 启动： nodemon/node-dev index.js
+ */
+
 
 var http = require("http")
 var url = require("url")

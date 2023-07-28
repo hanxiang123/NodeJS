@@ -1,7 +1,7 @@
 
 const fs =require("fs")
 const path= require("path")
-const mime = require('mime');
+const mime = require('mime');   // 需要安装，自动识别需要解析的格式
 
 function render(res,path,type=""){
     res.writeHead(200, { "Content-Type": `${type?type:"text/html"};charset=utf8` })
@@ -9,11 +9,11 @@ function render(res,path,type=""){
     res.end()
 }
 const route = {
-    "/login":(req,res)=>{
-        render(res,"./static/login.html")
-    },
     "/":(req,res)=>{
         render(res,"./static/home.html")
+    },
+    "/login":(req,res)=>{
+        render(res,"./static/login.html")
     },
     "/home":(req,res)=>{
         render(res,"./static/home.html")
@@ -35,10 +35,12 @@ const route = {
 function readStaticFile(req,res){
     //获取路径
     const myURL = new URL(req.url,"http://127.0.0.1:3000")
-    // console.log()
-    const pathname = path.join(__dirname,"/static",myURL.pathname)
+
     // console.log(myURL.pathname)
     if(myURL.pathname==="/") return false
+
+    const pathname = path.join(__dirname,"/static",myURL.pathname)
+
     if(fs.existsSync(pathname)){
         //处理显示返回
         render(res,pathname,mime.getType(myURL.pathname.split(".")[1]))

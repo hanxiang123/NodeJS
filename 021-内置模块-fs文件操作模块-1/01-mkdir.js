@@ -1,5 +1,6 @@
 
 const fs = require("fs")
+
 //创建目录
 fs.mkdir("./avatar",(err)=>{
     // console.log(err)

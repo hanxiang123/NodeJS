@@ -1,5 +1,3 @@
-@公众号: 大前端私房菜
- */
 const { EventEmitter } = require("events")
 var http = require("http")
 var https = require("https")

@@ -1,5 +1,4 @@
-@公众号: 大前端私房菜
- */
+
 const Koa = require("koa")
 const app = new Koa()
 
